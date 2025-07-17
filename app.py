@@ -13,7 +13,7 @@ import joblib
 st.set_page_config(page_title="🩺 Diabetes Risk Predictor", layout="centered")
 
 # 📥 Load Dataset
-df = pd.read_csv('C:/Users/LENOVO/Desktop/Javin Programming/machine learning files/Cohort/Streamlit/Diabetes Prediction/diabetes.csv')
+df = pd.read_csv('diabetes.csv')
 
 # 🧪 Check Dataset Structure
 print(df.shape)  # Show dimensions
